@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hotel Invoice</title>
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css" />
+    <link rel="icon" href="data:," />
+  </head>
+  <body>
+    <header>
+      <h1>Hotel Invoice</h1>
+      <p>Guest: <span id="guestName">John Doe</span></p>
+    </header>
+
+    <main>
+      <table>
+        <thead>
+          <tr>
+            <th>Description</th>
+            <th>Amount</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <span id="numberOfNights">1</span> nights @
+              <span id="nightlyRate">$100.00</span>/night
+            </td>
+            <td id="subTotal">$100.00</td>
+          </tr>
+          <tr>
+            <td>PST (<span id="pstRate">8.00%</span>)</td>
+            <td id="pstAmount">$8.00</td>
+          </tr>
+          <tr>
+            <td>GST (<span id="gstRate">5.00%</span>)</td>
+            <td id="gstAmount">$5.00</td>
+          </tr>
+          <tr>
+            <th>Total</th>
+            <th id="total">$113.00</th>
+          </tr>
+        </tbody>
+      </table>
+      <button type="button" id="newInvoice">New Invoice</button>
+    </main>
+
+    <footer>
+      <p>DGL 113 2024WI Assignment #2</p>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>

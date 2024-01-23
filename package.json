@@ -1,0 +1,30 @@
+{
+  "name": "dgl-113-2024wi-a2",
+  "version": "1.0.0",
+  "description": "DGL 113 2024WI Assignment #2",
+  "scripts": {
+    "test": "jest",
+    "test-guestName": "jest -t 'guestName'",
+    "test-numberOfNights": "jest -t 'numberOfNights'",
+    "test-nightlyRate": "jest -t 'nightlyRate'",
+    "test-subTotal": "jest -t 'subTotal'",
+    "test-pstRate": "jest -t 'pstRate'",
+    "test-pstAmount": "jest -t 'pstAmount'",
+    "test-gstRate": "jest -t 'gstRate'",
+    "test-gstAmount": "jest -t 'gstAmount'",
+    "test-total": "jest -t 'all tests total'"
+  },
+  "author": "Brian Koehler",
+  "license": "MIT",
+  "jest": {
+    "preset": "jest-puppeteer"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.6",
+    "@babel/preset-env": "^7.23.6",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
+    "jest-puppeteer": "^9.0.2",
+    "puppeteer": "^21.6.1"
+  }
+}

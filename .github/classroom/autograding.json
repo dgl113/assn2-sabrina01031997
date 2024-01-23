@@ -1,0 +1,94 @@
+{
+  "tests": [
+    {
+      "name": "guestName",
+      "setup": "npm install",
+      "run": "npm run test-guestName",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "numberOfNights",
+      "setup": "",
+      "run": "npm run test-numberOfNights",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "nightlyRate",
+      "setup": "",
+      "run": "npm run test-nightlyRate",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "subTotal",
+      "setup": "",
+      "run": "npm run test-subTotal",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "pstRate",
+      "setup": "",
+      "run": "npm run test-pstRate",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "pstAmount",
+      "setup": "",
+      "run": "npm run test-pstAmount",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "gstRate",
+      "setup": "",
+      "run": "npm run test-gstRate",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "gstAmount",
+      "setup": "",
+      "run": "npm run test-gstAmount",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "total",
+      "setup": "",
+      "run": "npm run test-total",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
